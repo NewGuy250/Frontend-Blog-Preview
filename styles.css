@@ -1,0 +1,78 @@
+html {
+    background-color: hsl(47, 88%, 63%);
+}
+
+body {
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: Figtree;
+}
+
+.blog-preview-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 25px;
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    box-shadow: 6px 6px 0.15px;
+}
+
+.thumbnail {
+    width: 350px;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+}
+
+.genre {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    width: 64px;
+    padding: 6px 10px;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 0 0 16px 0;
+}
+
+.published-date {
+    margin: 0 0 0 0;
+}
+
+.blog-title {
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.blog-description {
+    color: hsl(0, 0%, 50%);
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+.author-profile-picture {
+    width: 40px;
+    height: 40px;
+}
+.author-name {
+    font-weight: 800;
+}
+.attribution {
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
